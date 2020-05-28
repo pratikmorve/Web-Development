@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+     <h2>This is Form</h2>
+    <form action="backed.php">
+        <label for="name"> Name</label> 
+        <div>
+            <input type="text" name ="MyName" id="name">
+        </div><br>
+    <div>
+        Role: <input type="text" name="MyRole">
+    </div>
+    <br>
+    <div>
+        Email: <input type="email" name="MyEmail">
+    </div>
+    <br>
+
+
+    <div>
+        Gender: Male <input type="radio" name="MYGender"> Female <input type="radio" name="MYGender"> Other <input type="radio" name="MYGender">
+    </div><br>
+
+    <div>
+        Date: <input type="date" name="EnterDate">
+    </div><br>
+
+    <div>
+       Bonus: <input type="number" name="MyBonus">
+    </div><br>
+   
+    <div>
+        Are you agree with entered data ? : <input type="checkbox" name="MyCheckbox">
+    </div><br>
+   
+    <div>
+       Write About Yourself:<br> <textarea name="Write Here" cols="30" rows="10"></textarea>
+    </div><br>
+    
+    <div>
+        <label for="car">Car</label>
+        <select name="Mycar" id="car">
+        <option value="inn" selected>Innova</option>
+        <option value="ad">Audi</option>
+    </select>
+    </div>
+
+        <input type="submit" value="Submit Here">
+        <input type="reset" value="Reset Here">
+    </form>
+</body>
+</html>
