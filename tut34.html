@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS Grid</title>
+</head>
+
+<style>
+.container{
+display: grid;
+grid-template-rows: 1fr 2fr 3fr;
+grid-auto-rows: 3fr;
+grid-template-columns: 2fr 3fr 1fr;
+grid-template-columns: repeat(5, 2fr);
+grid-gap: 1rem;
+}
+
+.grid{
+
+background-color: blue;
+border: 2px solid black;
+
+}
+
+</style>
+<body>
+    <div class="container">
+    <div class="grid">This is a box-1</div>
+    <div class="grid">This is a box-2</div>
+    <div class="grid">This is a box-3</div>
+    <div class="grid">This is a box-4</div>
+    <div class="grid">This is a box-5</div>
+    <div class="grid">This is a box-6</div>
+    <div class="grid">This is a box-7</div>
+    <div class="grid">This is a box-8</div>
+    <div class="grid">This is a box-9</div>
+    <div class="grid">This is a box-10</div>
+</div>
+
+</body>
+</html>
